@@ -193,7 +193,7 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-add_executable (get_scan_data src/get_scan_data.cpp)
-add_dependencies(get_scan_data ${${PROJECT_NAME}_EXPORTTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(get_scan_data ${catkin_LIBRARIES})
+#add_executable (get_scan_data src/get_scan_data.cpp)
+#add_dependencies(get_scan_data ${${PROJECT_NAME}_EXPORTTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+#target_link_libraries(get_scan_data ${catkin_LIBRARIES})
 
